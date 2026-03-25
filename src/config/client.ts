@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "2",
 
   // Services
   services: [
@@ -79,9 +79,8 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Chris", rating: 5, text: "For five years Sam has been working with us, helping to transform our previously rampant one-and-quarter acre garden into a manageable delight. He has landscaped, making new beds, helping to build patios, arbours and paths, maintained large …  ", date: "4 years ago" },
+    { name: "Clare Hunton", rating: 5, text: "Sam has transformed my jungle into a haven of loveliness. He has extensive horticultural knowledge, I can’t recommend him highly enough. ", date: "4 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
